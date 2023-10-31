@@ -17,8 +17,6 @@ Mas há mais! Quando a aplicação Node.js responder, queremos que o retorno sej
 </ul>
 ```
 
-Aqui estão as etapas para o desafio:
-
 ## Pré-requisitos
 
 Precisará ter o Docker e o Docker Compose instalados em sua máquina.
