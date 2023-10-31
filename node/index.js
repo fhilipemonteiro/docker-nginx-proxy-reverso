@@ -39,8 +39,7 @@ products.forEach(async (product) => {
 app.get('/', async (req, res) => {
   try {
     const db = await mysql.createConnection(configDB) 
-    const [rows] = await db.execute('SELECT * FROM products') 
-    console.log(rows)
+    const [rows] = await db.execute('SELECT * FROM products')
     db.end() 
     const produtosOrdenados = rows.sort((a, b) => a.sku - b.sku);
     res.render('pagina', { produtos: produtosOrdenados }) 
@@ -50,6 +49,4 @@ app.get('/', async (req, res) => {
   }
 }) 
 
-app.listen(port, () => {
-  console.log(`Servidor rodando na porta ${port}`) 
-}) 
+app.listen(port) 
