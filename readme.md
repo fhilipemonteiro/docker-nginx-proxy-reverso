@@ -39,4 +39,4 @@ Precisará ter o Docker e o Docker Compose instalados em sua máquina.
 
 ## Contribuição
 
-Este é um desafio de programação em Node/JavaScript e sua contribuição é muito bem-vinda! Sinta-se à vontade para criar um fork deste repositório.
+Este é um desafio de programação usando Docker e Docker Compose em com Node e MySQL e sua contribuição é muito bem-vinda! Sinta-se à vontade para criar um fork deste repositório.
