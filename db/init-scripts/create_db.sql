@@ -1,0 +1,10 @@
+CREATE DATABASE IF NOT EXISTS nodedb;
+
+USE nodedb;
+
+CREATE TABLE IF NOT EXISTS products (
+    id INT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(255),
+    sku INT,
+    PRIMARY KEY (id)
+);

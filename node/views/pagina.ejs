@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Minha Página</title>
+</head>
+<body>
+    <h1>Full Cycle Rocks!</h1>
+    <ul>
+        <% produtos.forEach(function(produto) { %>
+            <li><%= produto.name %> | SKU: <%= produto.sku %></li>
+        <% }); %>
+    </ul>
+</body>
+</html>
